@@ -1,6 +1,9 @@
 sudo: false
 language: python
 python:
-  - "2.7"
+  - '2.7'
+env:
+  secure: ku9ZQT3ED6dVdhOUQ4VKIXzvpOv1Gu/Q2iH2ZqQ35plVMRXZ36rkh7LGuDOIvEzps2MzRMI2UhYI/V5gdZ6VpuBSdkJODplOk6MKq1KKDBGhwP/8pr7LUgoh+qFpg7/ZyzwFpKxAgByVyrgFb5tAUMEXaJvLJGJTxXG6Fq7hA5XRRZPz2xrK5X8vf1pcxIGO0p9Z/MHbj1Po3wrw6Co8TMb8eNrNtt+d7pOPoKpTh4R+ILaokEAiGlqPM5tGddiYKMxswVwWJ/Q/Q6dKV+Dn2EzQ5pEOZrcxQ2Adc4OTjKkaD/utIWBV1tIuJ+wM6HI5EDPux6B5zs76VCmvKXG2nGEEzVs8JqVbUmc25iDWg+52+ts4urAcjJQ62bmtCRsX9Ag0qC0XY4i9IEMXQ7WKJ8BKoyp0xMzaXHu1o09GLjRl8pmTihyuFixV1HR1qTp73sRzBqSbykSC7XFWDAv3Nl+mw7EQzDWn47EeVbvl1nbymC9Cp3bhZRjixOUoAkTqdYCED7/YYZEsQi4BjtvF6gIzJcNX0zHycGDr8KNw1aENI25RWxNa5Cc88OX3ILaWW+xJQKby2KOQ7UmEfZvf0Qop0GkWUiARphcDpoytWDbNkRFkXRxX7Z9GsRhAehBJ4ILi4Te7GfqOT66TUlcc7Ay69NbO/mRJSpjxCzZohQo=
+
 script:
   - echo "The value of secret is " $secret
