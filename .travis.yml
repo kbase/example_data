@@ -7,4 +7,4 @@ env:
   secure: "AMPary9G7ImfpDZi8giOh3gNLmfPXkHWe3kvPypqn5mIMu6SfptbJRUzYZSgbdfEPtbFKwFtwYoaNt3MA+xkWWqt8qZC5G2kJ17GjOOIYp92rjXAe3SXbT7M3Dff/C9JalUtCyRgsN2I+tJ7GqIqQ/SwCgB0XWJXsA3PFxICD+uvUIe/GTxwRNxatQrPz+wnqhgul2ptcM96xuUKMhYVagZaIqgjVT3dJB5oHsYpVOjFUGCYzYBP3NGZCcQ9FxKS2DvICpeqaIn4cmiFoTXNgywyuCy971HMDAOF+FClGCP8bKRUdJeuQhfMJXBKzX3Ua2gZFeabRfx5hchqDR/ln2BUN1GWwdJybRQvjiydjkWhWZ12y8TtBwWQ+oSXOBXYoHii5ZmmhSi9P3C69ZLeqVAo6YiPfFlGlpSeh1mHNV/FqUhN7N8WpZfHzZ3D2/qsTG4yE7qWIyK2SW8uMGblmQ/YpZpxH6YUNbZUdvlxtsGA1YhlTObvBJ899Vv6GJI5Mqjmn/Mhx8cCdqFxTcMZB9yLRpUmJ+AkjWRPZKreGCf8AHSCsWNRfrfidRVWjUjShQMQc+qjsbRmOLRFp60wYSULhWu5SKAlz1UMWi0LQ7sT9e6ya/ffuovOxukhEaNQHMwvJH/xvqhLeirTiWsp2ndKIH1J7oUyweDlFT/rvio="
 
 script:
-  - echo "The value of secret is " $secret
+  - echo "The value of secret is (hoping for KBase Secret for the KBase repo and SYChan for sychan repo)" $secret
